@@ -8,27 +8,37 @@
         <script src="https://unpkg.com/feather-icons"></script>
     </head> 
     <body>
-        <div class="container">
+        <div class="container-signin">
             <div class="main-box">
-                <h1>Log In</h1>
+                <h1>Sign In</h1>
                 <form action="">
                     <div class="input-box">
-                        <span class="icon"><i data-feather="lock"></i></span>
-                        <input type="password" required/>
-                        <label>Password</label>
+                        <span class="icon"><i data-feather="user"></i></span>
+                        <input type="name" required/>
+                        <label>Full Name</label>
                     </div>
                     <div class="input-box">
                         <span class="icon"><i data-feather="mail"></i></span>
                         <input type="email" required/>
                         <label>Email</label>
                     </div>
-                    <div class="check">
+                    <div class="input-box">
+                        <span class="icon"><i data-feather="key"></i></span>
+                        <input type="password" required/>
+                        <label>Create a Password</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i data-feather="lock"></i></span>
+                        <input type="password" required/>
+                        <label>Confirm Password</label>
+                    </div>
+                    <!-- <div class="check">
                         <label><input type="checkbox"/>Remeber me</label>
                         <a href="#">Forget Password</a>
-                    </div>
-                    <button type="submit" class="btn">Login</button>
+                    </div> -->
+                    <button type="submit" class="btn">Sign In</button>
                     <div class="register">
-                        <p>Don't have an account?<a href="#" class="register-link">Sign Up</a></p>
+                        <p>Do you have an account?<a href="/login.html" class="register-link">Log In</a></p>
                     </div>
                 </form>
             </div>
